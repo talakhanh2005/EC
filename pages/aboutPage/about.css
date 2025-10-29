@@ -1,0 +1,19 @@
+.section-title {
+  font-weight: 700;
+}
+
+.mission-section {
+  background: linear-gradient(180deg, #22407a, #355a9b);
+}
+
+p {
+  line-height: 1.7;
+}
+
+img {
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
