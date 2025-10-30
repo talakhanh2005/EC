@@ -1,7 +1,12 @@
 .section-title {
   font-weight: 700;
 }
-
+.carousel,
+.hero-section {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
 .mission-section {
   background: linear-gradient(180deg, #22407a, #355a9b);
 }
