@@ -1,11 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoạt động - Trung tâm dưỡng lão Hạnh Niên</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .activity-card {
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .activity-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+    .card-img-top {
+      height: 220px;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
-    
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #355a9b;">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../../index.html" style="color: white;">Hạnh Niên Care</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../../index.html" style="color: white;">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="../aboutPage/about.html" style="color: white;">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="../servicesPage/services.html" style="color: white;">Dịch vụ</a></li>
+          <li class="nav-item"><a class="nav-link active" href="../bookingPage/booking.html" style="color: white;">Hoạt động</a></li>
+          <li class="nav-item"><a class="nav-link" href="../contactPage/contact.html" style="color: white;">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center py-4 bg-light shadow-sm">
+    <h1 class="fw-bold" style="color: #22407a;">Các hoạt động tại Hạnh Niên</h1>
+    <p class="text-muted">Nơi mỗi ngày đều là niềm vui và sức khỏe.</p>
+  </header>
+
+  <section class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card activity-card h-100">
+          <img src="https://media.istockphoto.com/id/2209475651/photo/young-adult-child-workout-outdoor-public-park-run-walk-hold-water-bottle-with-mature-middle.webp?a=1&b=1&s=612x612&w=0&k=20&c=o-rzLDJseAXL_xVXseRAKr1Z-_r8SASnKLfiYbIeDTQ=" class="card-img-top" alt="Tập dưỡng sinh">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Tập dưỡng sinh buổi sáng</h5>
+            <p class="card-text">Mỗi sáng, các cụ cùng tập thể dục nhẹ, hít thở trong không khí trong lành giúp tăng cường sức khỏe.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card activity-card h-100">
+          <img src="https://plus.unsplash.com/premium_photo-1661775601929-8c775187bea6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470" class="card-img-top" alt="Chăm sóc sức khỏe">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Khám sức khỏe định kỳ</h5>
+            <p class="card-text">Các bác sĩ và y tá kiểm tra, tư vấn sức khỏe hàng tuần nhằm đảm bảo sức khỏe tối ưu cho người cao tuổi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card activity-card h-100">
+          <img src="https://plus.unsplash.com/premium_photo-1677671874468-2dfb9d94c948?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2xkJTIwYm9hcmRnYW1lfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="Hoạt động giải trí">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Hoạt động văn nghệ & trò chơi</h5>
+            <p class="card-text">Các cụ cùng nhau ca hát, chơi cờ, thi đố vui, giúp rèn luyện trí nhớ và tạo niềm vui hằng ngày.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 mt-2">
+      <div class="col-md-4">
+        <div class="card activity-card h-100">
+          <img src="https://plus.unsplash.com/premium_photo-1675369670667-4858370be375?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b2xkJTIwcGljbmljfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="Tham quan ngoài trời">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Tham quan dã ngoại</h5>
+            <p class="card-text">Tổ chức các chuyến đi picnic, tham quan vườn cây, giúp người cao tuổi thư giãn tinh thần.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card activity-card h-100">
+          <img src="https://images.unsplash.com/photo-1615928081877-3885aba162ba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2xkJTIwcmVhZGJvb2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="Đọc sách & Thư giãn">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Đọc sách & thư giãn</h5>
+            <p class="card-text">Không gian yên tĩnh với tủ sách đa dạng giúp các cụ thư giãn, rèn luyện trí óc mỗi ngày.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card activity-card h-100">
+          <img src="https://images.unsplash.com/photo-1605712776874-fc7dea449fe8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2xkJTIwY29va2luZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" class="card-img-top" alt="Ẩm thực">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Lớp nấu ăn & ẩm thực</h5>
+            <p class="card-text">Tổ chức các buổi dạy nấu món truyền thống, giúp các cụ giữ tinh thần vui vẻ, gắn kết như gia đình.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-light mt-5">
+    <p class="mb-0">© 2025 Trung tâm dưỡng lão Hạnh Niên | Hotline: 0123 456 789</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

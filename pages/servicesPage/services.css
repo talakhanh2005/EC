@@ -1,3 +1,11 @@
+/* html, body {
+  height: auto;
+  overflow-y: auto !important;
+}
+.navbar-collapse {
+  max-height: 80vh;
+  overflow-y: auto;
+} */
 .service-card {
   border: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
